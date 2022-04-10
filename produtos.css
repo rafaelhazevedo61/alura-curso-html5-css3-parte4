@@ -1,0 +1,105 @@
+/*border-radius-top-left -> arredondar borda canto superior esquerdo*/
+/*link util: https://unicode-table.com/*/
+
+header {
+    background: #BBBBBB;
+    padding: 20px 0; /*20px pra cima e pra baixo e 0 pra esquerda e pra direita*/
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0  auto;/*pra cima e pra baixo seja 0 e pra direita e pra esquerda se definam automaticamente */
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+/*Todos os itens da lista(li) que estão dentro da tag de navegação*/
+nav li {
+    display: inline;
+    margin: 0 0 0 15px; /*1º-topo, 2º-direita, 3º-baixo, 4º-esquerda*/
+}
+
+/*Todos os links da nossa navegação estejam em maíusculo*/
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+/*Todos os li dentro da class produtos*/
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    /*inicio conf borda*/
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    /*border-radius: 10px 20px 30px 40px;*/
+    /*config 3 em 1 -> border: 2px solid #000000;*/
+    /*fim conf borda*/
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:active {
+    border-color: #088C19;
+}
+
+.produtos li:hover h2 { /*quero que ao passar o mouse em cima do h2 que está dentro do li*/
+    font-size: 34px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    /*background: url("bg.jpeg");*/
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    /*margin: 20px 0 0;*/
+    margin-top: 20px;
+}

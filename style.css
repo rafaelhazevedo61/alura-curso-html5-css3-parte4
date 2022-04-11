@@ -3,7 +3,7 @@
 /*link util: fonts.google.com*/
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Montserrat', sans-serif;*/
 }
 
 header {
@@ -208,4 +208,12 @@ td, th {
     float: left;
     margin: 0 20px 20px 0; /* 0 pra cima, 20px pra direita, 20px pra baixo, 0 para baixo */
     
+}
+
+.mapa {
+    padding: 3em 0; /*3em para cima e para baixo, 0 para as laterais*/
+}
+
+.mapa p {
+    margin: 0 0 2em; /*espaçamento para baixo de 2 em*/
 }

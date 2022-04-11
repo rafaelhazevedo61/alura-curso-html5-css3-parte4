@@ -1,5 +1,10 @@
 /*border-radius-top-left -> arredondar borda canto superior esquerdo*/
 /*link util: https://unicode-table.com/*/
+/*link util: fonts.google.com*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 header {
     background: #BBBBBB;

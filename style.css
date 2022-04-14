@@ -115,9 +115,7 @@ footer {
     margin-top: 20px;
 }
 
-main {
-
-}
+main {}
 
 form {
     margin: 40px 0;
@@ -130,7 +128,7 @@ form legend {
     margin: 0 0 10px;
 }
 
-.input-padrao{
+.input-padrao {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
@@ -142,7 +140,7 @@ form legend {
 }
 
 .enviar {
-    width:40%;
+    width: 40%;
     padding: 15px 0;
     background: orange;
     color: white;
@@ -171,7 +169,8 @@ thead {
     font-weight: bold;
 }
 
-td, th {
+td,
+th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
@@ -187,6 +186,25 @@ td, th {
     margin: 0 0 1em;
     clear: left;
 }
+
+
+/*
+.titulo-principal:first-letter { <-- primeira letra
+    font-weight: bold;
+}
+
+.titulo-principal:before {
+    content: "[ ";
+}
+
+.titulo-principal:after {
+    content: " ]";
+}
+
+p::first-line { <-- primeira linha
+    font-style:italic;
+}
+*/
 
 .principal {
     padding: 3em 0;
@@ -210,7 +228,8 @@ td, th {
 .utensilios {
     width: 120px;
     float: left;
-    margin: 0 20px 20px 0; /* 0 pra cima, 20px pra direita, 20px pra baixo, 0 para baixo */
+    margin: 0 20px 20px 0;
+    /* 0 pra cima, 20px pra direita, 20px pra baixo, 0 para baixo */
 }
 
 .conteudo-beneficios {
@@ -225,7 +244,12 @@ td, th {
 }
 
 .itens {
-    line-height: 1.5; /*tamanho da linha*/
+    line-height: 1.5;
+    /*tamanho da linha*/
+}
+
+.itens:before {
+    content: "🟊"
 }
 
 /*
@@ -234,7 +258,8 @@ td, th {
 
 */
 
-.itens:first-child { /*pega o primeiro elemento da lista*/
+.itens:first-child {
+    /*pega o primeiro elemento da lista*/
     font-weight: bold;
 }
 
@@ -243,8 +268,9 @@ td, th {
 }
 
 .mapa {
-    padding: 3em 0; /*3em para cima e para baixo, 0 para as laterais*/
-    background: linear-gradient(#FEFEFE,#888888);
+    padding: 3em 0;
+    /*3em para cima e para baixo, 0 para as laterais*/
+    background: linear-gradient(#FEFEFE, #888888);
     /*background: radial-gradient(orange 50%,blue, red, black);*/
 }
 
@@ -254,7 +280,8 @@ td, th {
 }
 
 .mapa p {
-    margin: 0 0 2em; /*espaçamento para baixo de 2 em*/
+    margin: 0 0 2em;
+    /*espaçamento para baixo de 2 em*/
     text-align: center;
 }
 

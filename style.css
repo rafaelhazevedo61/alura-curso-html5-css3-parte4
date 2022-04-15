@@ -186,7 +186,7 @@ th {
     margin: 0 0 1em;
     clear: left;
     /*color: rgba(0,0,0,0.3);*/
-    text-shadow: 2px 2px #FF0000;
+    /*text-shadow: 2px 2px #FF0000;*/
 }
 
 
@@ -329,7 +329,16 @@ img ~ p { /*todos os seletores que vem depois de uma img
 */
 
 @media screen and (max-width: 480px) {
-    body {
-        background: red;
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+        width: auto;
     }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
 }

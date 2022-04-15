@@ -185,8 +185,8 @@ th {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
-    /*color: #000000;*/
-    color: rgba(0,0,0,0.3);
+    /*color: rgba(0,0,0,0.3);*/
+    text-shadow: 2px 2px #FF0000;
 }
 
 
@@ -270,6 +270,11 @@ p::first-line { <-- primeira linha
     width: 60%;
     opacity: 1;
     transition: 400ms;
+    box-shadow: 10px 10px 10px #000000;
+    /*box-shadow: 10px 10px 30px 20px #000000, -10px -10px yellow, -20px 20px rgba(255,0,0,0.5); <-- multi sombras */
+    /*box-shadow: 10px 10px 5px 3px #000000; <-- intensidade da borda*/
+    /*box-shadow: 10px 10px 5px #000000; <-- usando "blur" na borda*/
+    /*box-shadow: 10px 10px #000000;*/
 }
 
 .imagem-beneficios:hover {
@@ -297,6 +302,7 @@ p::first-line { <-- primeira linha
 .beneficios {
     padding: 3em 0;
     background: #888888;
+    /*box-shadow: inset 0 30px #FF0000; <--sombra interna*/
 }
 
 .video {
